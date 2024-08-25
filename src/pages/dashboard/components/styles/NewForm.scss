@@ -1,0 +1,21 @@
+@import "../../../../styles/mixins.scss";
+
+.new-form-container {
+  .new-form-card {
+    @include dfc-center;
+    width: 100%;
+    min-width: 306px;
+    height: 379px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+  }
+}
+
+.new-form-dialog {
+  .new-form-actions {
+    .action-btn-group {
+      @include dfr-space-between;
+      width: 40%;
+    }
+  }
+}
